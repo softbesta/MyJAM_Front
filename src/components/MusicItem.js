@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { useAppContext } from "../context"
 
-const MusicCard = ({musicItem}) => {
+const MusicCard = ({ musicItem }) => {
   const { user } = useAppContext()
   return (
     <Link
@@ -9,7 +9,7 @@ const MusicCard = ({musicItem}) => {
       to={user ? `/item/${musicItem.id}` : ''}
     >
       <img className="mb-2 rounded-2xl" src={musicItem.thumb} alt={musicItem.title} />
-      <h5 className="m-0">{musicItem.title}</h5>
+      <h5 className="m-0 truncate">{musicItem.title}</h5>
     </Link>
   )
 }

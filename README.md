@@ -3,8 +3,8 @@
 this is an app to provide user music list/songs in several genres
 
 ## Repo
-#### Frontend: [https://github.com/anbee123/myJAM-frontend-.git](https://github.com/anbee123/myJAM-frontend-.git)
-#### Backend: [https://github.com/anbee123/myJAM-backend.git](https://github.com/anbee123/myJAM-backend.git)
+#### Frontend: [https://github.com/softbesta/MyJAM_Front.git](https://github.com/softbesta/MyJAM_Front.git)
+#### Backend: [https://github.com/softbesta/MyJAM_Back.git](https://github.com/softbesta/MyJAM_Back.git)
 
 
 ### Trello
@@ -27,12 +27,12 @@ this is an app to provide user music list/songs in several genres
 
 * Express
 * React
-* Styled Component
+* Tailwind 
 * Rest API
 * MongoDB/Mongoose
 * Node
-* JWT/Full CRUD
+* JWT
 
 ## Live link
 
-[https://welcometomyjam.netlify.app/](https://welcometomyjam.netlify.app/)
+[https://myjamworld.netlify.app/](https://myjamworld.netlify.app/)
